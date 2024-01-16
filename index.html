@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Master By Tech</title>
+</head>
+
+<body>
+    <nav class="navbar bg-body-tertiary fixed-top shadow p-3 mb-5 bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-3">
+                <img src="/images/42622943-removebg-preview.png" alt="Bootstrap" width="150" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#inicio">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#servico">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#depoimentos">Depoimentos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="carrosel" style="margin-top: 90px ;">
+        <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/images/Mais de 100.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/Mais de 100 (1).png " class="d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="inicio" id="inicio">
+        <div class="ini">
+            <h1>Transforme suas ideias</h1>
+            <div class="para-ini">
+                <div class="paragrafos">
+                    <p>Queremos ajudá-lo a criar um site ou aplicativo que reflita a <br> essência da sua marca e
+                        proporcione uma
+                        experiência incrível aos usuários.</p>
+                    <p>Conte conosco para alcançar o sucesso digital e <br> proporcionar uma experiência memorável aos
+                        seus
+                        clientes.</p>
+                </div>
+                <img src="images/generated-dWxwrWKO3EHx4LVx.avif" alt="" style="width: 350px; height: 200px;">
+
+            </div>
+            <button type="button" class="btn btn-light m-3 mb-5 ps-5 px-5 p-2" onclick="Comecar()">Começar</button>
+        </div>
+    </section>
+    <section class="BackgroundBranco">
+        <h2>Acreditamos que a tecnologia é a chave para transformar ideias em realidade digital. Nossa equipe experiente
+            e criativa está comprometida em ajudar sua empresa a alcançar o sucesso através de soluções tecnológicas
+            inovadoras.</h2>
+    </section>
+    <section class="Servico" id="servico">
+        <h1 style=" margin-left: 85px; margin-top: 20px;">Nossos Serviços</h1>
+        <div class="backgroundServico">
+            <div class="card"
+                style="width: 20rem; height: 20rem; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
+                <img src="data:image/png;base64,
+                iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAACOklEQVR4nO2bWU7DQAyGv
+                /LCdhOQoPdguwDlDKzitY/cALUIXhBcAolF4hYsRwDeCE9BlibIJG3awmRIBluyVHlSa35nvMSJoUjzwAawCxxGwjvAO
+                jBHCbWAA+ANSCPlV2DPYf1GU8BlDTYYii/yRjjIXfAI9ICjSLjnMGmM4uJfPq+P/QkwTXwkmE5z7jCHCw6Z8CFS8BkJtieFd1WE+0pwT
+                PzUy7tBVwnkdz44dlQ66TjZuOt1pALebokBtgZE0M4E6403QGcAwM0J1htvgCkHKEsnmwNcoGy98QaIkcwA2AlgqAtc1eDJrWq+KjNA+s+
+                4awbg+wm4r8GTW9UsGC0NYnUAVghZJYifUrgN3AHJiJQj67fAciBdQUrhNvAxYe5Nhmzcp65gBrj7YQFyU7GuYAZI1H8XRly7q
+                K59r1hXMAOkin97vU9dZWQGwE4A5gJYDMCCoGUB/NYBkpt91QG/1RUsC9z+sHq7rlhXMAMsj/Hgkme5Y0sV6wpmgGzjN24zozZ7
+                PWLDPnUNI3svgOcT0DQyA2AnAK8u0LaWGBOlLmuJYS0xrCVGkawlhvUEsaYo1hXG2uKMR/ZegBq8GEmsJYa1xBJriWEtsSZRIebtKYGM
+                k8ROfYV3RwRrSvAY+dDUDPCs8K7gRsdelfA0UiMI+DOF8wWYzRa1G6RutKxXgy+7fXE/d+eFt7V1Wm6cNP0nfD5ofrjl5ui0O8TGL+
+                7OF8CjSGKCBEaJkH/9ZbcvFiwyJfrl8xl9AvsGhat3RGJ3AAAAAElFTkSuQmCC" style="width: 85px; margin-top: 20px;">
+                <div class="card-body">
+                    <h5 class="card-title mt-2">Web Design</h5>
+                    <p class="card-text mt-4">Criamos sites impactantes que captam a essência da sua marca, transmitindo
+                        uma
+                        mensagem clara e atraente para seus clientes.</p>
+
+                </div>
+            </div>
+            <div class="card"
+                style="width: 20rem; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABi
+                    0lEQVR4nO2XTW7CQAyF36JZFTbtrUgWvQUr2DXhdlVJuqC9ULMh1UiOZFkFZmLnh9afNBIaMsN7E+OxAcdxHAUZgAOAhkZFc3fBGsARQ
+                    CfGO4AVFs4jgLdfxPfjgwwukiCsZmLPAEoKnzObry3eRAHgE0B75bT60dKzeaL4Hft+b2miiBB9abxEhE0QGgRLtsLE4HD6Uhg4ib1WN
+                    05eYvImeNg8RTz/zJ7/ZvMZZZZY8ZdMhD0ekAA/Uc2awwDxPTth4hUzGGjYXMg2qZQilFRitAZCqkylYuvDxacSM2RNFZF5Yv8Hs4RQJk
+                    qGWBN7If4415845Q4wvQssDcxykXXGBmJMbIX4RlPU8YssXFJDLzLJWmSm85ViTlWRWpYSt0x0YqjFa4u5zVIampxOM7acPkWK5ym2pBO
+                    v6XNSqnSWTmHUkVl3dpN2ZNad3eRpdMx0PElHZrVPMvwkNGus9knGDRD+BobiIUR4CP3bEGqNOrKxOru/X0rkih/ejLDPrB3Z2J2d4zi4
+                    U34AJZ1A3nmW1JAAAAAASUVORK5CYII=" style="width: 85px; margin-top: 20px;">
+                <div class="card-body">
+                    <h5 class="card-title">Desenvolvimento de Aplicativos</h5>
+                    <p class="card-text">
+                    <p> Desenvolvemos aplicativos intuitivos e funcionais que melhoram a experiência do
+                        usuário, tornando a interação com sua marca mais fácil e agradável.</p>
+
+                </div>
+            </div>
+            <div class="card"
+                style="width: 20rem; height: 20rem; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="85" height="70" viewBox="0 0 50 50"
+                    style="margin-top: 20px; width: 85px;">
+                    <path
+                        d="M 38.96875 0 C 35.675781 -0.0117188 28.804688 -0.121094 25.125 3.5625 L 24.46875 4.21875 L 24.46875 4.25 C 20.539063 8.207031 20.082031 14.121094 22.90625 18.5625 L 2.40625 37.3125 L 2.375 37.34375 C 1.476563 38.242188 0.53125 39.75 0.25 41.625 C -0.03125 43.5 0.453125 45.734375 2.375 47.65625 C 4.296875 49.578125 6.53125 50.0625 8.40625 49.78125 C 10.28125 49.5 11.789063 48.554688 12.6875 47.65625 L 12.71875 47.65625 L 12.71875 47.625 C 12.71875 47.625 17.425781 42.300781 22.1875 37 C 24.570313 34.347656 26.953125 31.710938 28.78125 29.75 C 29.695313 28.769531 30.484375 27.953125 31.03125 27.40625 C 31.183594 27.253906 31.261719 27.167969 31.375 27.0625 C 35.820313 29.992188 41.796875 29.585938 45.78125 25.59375 L 46.4375 24.9375 C 48.234375 23.144531 49.066406 20.523438 49.5 17.96875 C 49.933594 15.414063 49.929688 12.890625 49.9375 11.21875 C 49.941406 10.835938 49.933594 10.460938 49.625 10.09375 C 49.316406 9.726563 48.738281 9.628906 48.4375 9.6875 C 47.835938 9.808594 47.59375 10.125 47.59375 10.125 L 47.5625 10.15625 C 47.5625 10.15625 41.84375 15.902344 41.0625 16.6875 C 41.03125 16.707031 41.023438 16.710938 40.96875 16.71875 C 40.789063 16.746094 40.507813 16.777344 40.15625 16.78125 C 39.457031 16.789063 38.496094 16.742188 37.5625 16.65625 C 36.628906 16.570313 35.691406 16.425781 34.96875 16.28125 C 34.605469 16.207031 34.300781 16.128906 34.09375 16.0625 C 34.019531 16.039063 33.976563 16.023438 33.9375 16 C 33.914063 15.964844 33.894531 15.929688 33.875 15.875 C 33.808594 15.675781 33.757813 15.351563 33.6875 15 C 33.546875 14.296875 33.421875 13.382813 33.34375 12.46875 C 33.265625 11.554688 33.222656 10.628906 33.25 9.9375 C 33.265625 9.589844 33.277344 9.308594 33.3125 9.125 C 33.332031 9.035156 33.363281 8.984375 33.375 8.96875 C 34.242188 8.101563 39.9375 2.4375 39.9375 2.4375 L 39.96875 2.40625 L 39.96875 2.375 C 39.96875 2.375 40.265625 2.164063 40.40625 1.59375 C 40.476563 1.308594 40.453125 0.753906 40.09375 0.40625 C 39.734375 0.0585938 39.347656 0 38.96875 0 Z M 37.65625 2 C 36.414063 3.242188 32.566406 7.089844 31.9375 7.71875 C 31.5625 8.09375 31.535156 8.414063 31.46875 8.75 C 31.402344 9.085938 31.359375 9.464844 31.34375 9.875 C 31.308594 10.691406 31.355469 11.648438 31.4375 12.625 C 31.519531 13.601563 31.648438 14.570313 31.8125 15.375 C 31.894531 15.777344 31.988281 16.152344 32.09375 16.46875 C 32.199219 16.785156 32.265625 17.046875 32.59375 17.375 C 32.929688 17.710938 33.179688 17.769531 33.5 17.875 C 33.820313 17.980469 34.183594 18.074219 34.59375 18.15625 C 35.414063 18.320313 36.417969 18.4375 37.40625 18.53125 C 38.394531 18.625 39.351563 18.695313 40.15625 18.6875 C 40.558594 18.683594 40.933594 18.640625 41.25 18.59375 C 41.566406 18.546875 41.835938 18.632813 42.28125 18.1875 C 42.773438 17.691406 46.699219 13.714844 47.96875 12.4375 C 47.945313 13.996094 47.949219 15.742188 47.625 17.65625 C 47.226563 20.015625 46.421875 22.265625 45.09375 23.59375 L 44.4375 24.25 C 40.574219 28.117188 34.628906 28.015625 30.84375 24.21875 L 25.84375 19.21875 C 22.0625 15.417969 21.964844 9.464844 25.8125 5.59375 L 26.46875 4.90625 C 28.957031 2.414063 34.210938 2.058594 37.65625 2 Z M 24 20 C 24.164063 20.1875 24.320313 20.382813 24.5 20.5625 L 29.5 25.5625 C 29.636719 25.699219 29.792969 25.808594 29.9375 25.9375 C 29.867188 26.007813 29.828125 26.046875 29.75 26.125 C 29.171875 26.699219 28.390625 27.511719 27.46875 28.5 C 25.625 30.476563 23.226563 33.125 20.84375 35.78125 C 16.089844 41.074219 11.433594 46.375 11.40625 46.40625 L 11.375 46.4375 C 10.765625 47.035156 9.515625 47.789063 8.125 48 C 6.71875 48.210938 5.207031 47.957031 3.65625 46.40625 C 2.105469 44.855469 1.820313 43.316406 2.03125 41.90625 C 2.242188 40.515625 3.027344 39.265625 3.625 38.65625 L 3.65625 38.625 Z">
+                    </path>
+                </svg>
+                <div class="card-body">
+                    <h5 class="card-title mt-4">Suporte</h5>
+                    <p class="card-text  mt-4">Nosso foco está em proporcionar a melhor experiência possível para os
+                        usuários
+                        dos seus produtos e serviços, garantindo sua satisfação e fidelidade.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials" style="background-color: white;" id="depoimentos">
+        <h1 class="testimonials-title">Depoimentos dos nossos clientes</h1>
+        <div class="testimonials-list">
+            <div class="testimonials-item">
+                <div class="testimonials-card" style="background-color: #11235A; color: white;">
+                    <p class="testimonials-text">"Estamos extremamente satisfeitos com os serviços da Master By Tech na
+                        criação do nosso novo site. Desde o início, a equipe demonstrou uma compreensão profunda de
+                        nossas necessidades e metas. Eles entregaram um site moderno, responsivo e altamente funcional,
+                        que não só reflete a identidade da nossa marca, mas também impulsionou significativamente a
+                        nossa presença online. A atenção aos detalhes e o profissionalismo da Master By Tech foram
+                        essenciais para o sucesso deste projeto." </p>
+                    <div class="testimonials-info">
+                        <div class="testimonials-img"
+                            style="background-image: url(/images/pexels-edmond-dantès-4347368.jpg); background-size: cover;">
+                        </div>
+                        <div class="testimonials-name">Ana Silva</div>
+                        <div class="testimonials-company">TechInnovate Solutions</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonials-item">
+                <div class="testimonials-card" style="background-color: #11235A; color: white;">
+                    <p class="testimonials-text"> "A parceria com a Master By Tech foi crucial para o crescimento online
+                        da EcoGreen Solutions. A equipe dedicada e especializada trabalhou de perto conosco para
+                        desenvolver um site que não apenas atraiu nossa base de clientes existente, mas também expandiu
+                        nossa presença digital. A abordagem inovadora da Master by Tech e o compromisso com a qualidade
+                        são evidentes em cada elemento do nosso novo site. Recomendo vivamente seus serviços para
+                        qualquer empresa que busque uma presença online impactante." </p>
+                    <div class="testimonials-info">
+                        <div class="testimonials-img"
+                            style="background-image: url(/images/pexels-christina-morillo-1181391.jpg); background-repeat: no-repeat; background-size: cover;">
+                        </div>
+                        <div class="testimonials-name">João Oliveira</div>
+                        <div class="testimonials-company">EcoGreen Solutions</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonials-item">
+                <div class="testimonials-card" style="background-color: #11235A; color: white;">
+                    <p class="testimonials-text"> "Ao escolher a Master By Tech como nossa parceira para a criação do
+                        site
+                        da GlobalTech Solutions, obtivemos resultados notáveis. A equipe de desenvolvimento mostrou um
+                        profundo conhecimento técnico, aliado a uma abordagem criativa que superou nossas expectativas.
+                        O site não só melhorou a experiência do usuário, mas também otimizou nossos processos internos.
+                        Agradeço à Master By Tech por sua eficiência, comprometimento e capacidade de entrega dentro do
+                        prazo. Certamente, recomendamos seus serviços para quem busca soluções digitais de alta
+                        qualidade."</p>
+                    <div class="testimonials-info">
+                        <div class="testimonials-img"
+                            style="background-image: url(/images/pexels-christina-morillo-1181424.jpg); background-repeat: no-repeat; background-size: cover;">
+                        </div>
+                        <div class="testimonials-name">Carolina Santos</div>
+                        <div class="testimonials-company">GlobalTech Solutions</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="contato">
+        <div class="form">
+            <h1>Contato</h1>
+            <p>Entre em contato conosco para saber mais sobre nossos serviços</p>
+            <p>contato@masterbytech.com</p>
+            <p>+55 47 9 9641 5648</p>
+            <form id="contactForm" action="https://formsubmit.co/ajax/contato@masterbytech.com" method="POST" data-form>
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="name" name="nome" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" id="assunto" name="assunto" required>
+                </div>
+                <div>
+                    <label for="empresa">Empresa:</label>
+                    <input type="text" id="empresa" name="empresa" required>
+                </div>
+                <div>
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="button" class="btn btn-secondary" data-button
+                    style="margin-top: 30px; width: 320px;">Enviar</button>
+            </form>
+        </div>
+        </div>
+    </section>
+    <section class="footer" style="background-color: black;">
+        <div class="card text-center" style="width: 100%;">
+            <div class="card-body d-flex  justify-content-center align-items-center text-center" > 
+                <h5 class="card-title me-5 mt-2">Site Criado por Master By Tech</h5>
+                <div>
+                    <a href="https://www.instagram.com/masterbytech/"><svg xmlns="http://www.w3.org/2000/svg" x="0px"
+                            y="0px" width="35" height="35" viewBox="0 0 24 24">
+                            <path
+                                d="M 8 3 C 5.243 3 3 5.243 3 8 L 3 16 C 3 18.757 5.243 21 8 21 L 16 21 C 18.757 21 21 18.757 21 16 L 21 8 C 21 5.243 18.757 3 16 3 L 8 3 z M 8 5 L 16 5 C 17.654 5 19 6.346 19 8 L 19 16 C 19 17.654 17.654 19 16 19 L 8 19 C 6.346 19 5 17.654 5 16 L 5 8 C 5 6.346 6.346 5 8 5 z M 17 6 A 1 1 0 0 0 16 7 A 1 1 0 0 0 17 8 A 1 1 0 0 0 18 7 A 1 1 0 0 0 17 6 z M 12 7 C 9.243 7 7 9.243 7 12 C 7 14.757 9.243 17 12 17 C 14.757 17 17 14.757 17 12 C 17 9.243 14.757 7 12 7 z M 12 9 C 13.654 9 15 10.346 15 12 C 15 13.654 13.654 15 12 15 C 10.346 15 9 13.654 9 12 C 9 10.346 10.346 9 12 9 z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a
+                        href="https://www.facebook.com/people/Vinicius-Froes/pfbid02CfqtPQugFzf4uzF3gfpResNEZ5Jx9Mdgdwwij6C1ChpaZEgVgsszKhomf8e3qXTwl/"><svg
+                            xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35"
+                            viewBox="0 0 50 50" class="ms-2">
+                            <path
+                                d="M 9 4 C 6.2504839 4 4 6.2504839 4 9 L 4 41 C 4 43.749516 6.2504839 46 9 46 L 25.832031 46 A 1.0001 1.0001 0 0 0 26.158203 46 L 31.832031 46 A 1.0001 1.0001 0 0 0 32.158203 46 L 41 46 C 43.749516 46 46 43.749516 46 41 L 46 9 C 46 6.2504839 43.749516 4 41 4 L 9 4 z M 9 6 L 41 6 C 42.668484 6 44 7.3315161 44 9 L 44 41 C 44 42.668484 42.668484 44 41 44 L 33 44 L 33 30 L 36.820312 30 L 38.220703 23 L 33 23 L 33 21 C 33 20.442508 33.05305 20.398929 33.240234 20.277344 C 33.427419 20.155758 34.005822 20 35 20 L 38 20 L 38 14.369141 L 37.429688 14.097656 C 37.429688 14.097656 35.132647 13 32 13 C 29.75 13 27.901588 13.896453 26.71875 15.375 C 25.535912 16.853547 25 18.833333 25 21 L 25 23 L 22 23 L 22 30 L 25 30 L 25 44 L 9 44 C 7.3315161 44 6 42.668484 6 41 L 6 9 C 6 7.3315161 7.3315161 6 9 6 z M 32 15 C 34.079062 15 35.38736 15.458455 36 15.701172 L 36 18 L 35 18 C 33.849178 18 32.926956 18.0952 32.150391 18.599609 C 31.373826 19.104024 31 20.061492 31 21 L 31 25 L 35.779297 25 L 35.179688 28 L 31 28 L 31 44 L 27 44 L 27 28 L 24 28 L 24 25 L 27 25 L 27 21 C 27 19.166667 27.464088 17.646453 28.28125 16.625 C 29.098412 15.603547 30.25 15 32 15 z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+<script src="/js/script.js"></script>
+
+</html>
